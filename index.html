@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-9</title>
+
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2{
+            margin-left: 20px;
+        }
+        .ans{
+            margin-left: 50px;
+            text-align: center;
+            justify-content: left;
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task-9</h1>
+    <h2>Q9: 
+        Write a JavaScript program to check whether two given integer values are <br>
+        in the range 50..99 (inclusive). Return true if either of them falls within the <br>
+        range. <br>
+        
+    </h2> 
+
+    <script>
+    var num1 =+ prompt("Enter number");
+    var num2 =+ prompt("Enter number");
+
+    
+
+    if ((num1 >= 50 && num1 <= 99) && (num2 >= 50 && num2 <= 99)) {
+        document.write(`<h1 class="ans">${num1} and ${num2} is in the range.`)
+    }else{
+        document.write(`<h1 class="ans">${num1} and ${num2} is not under  the range.`)
+
+    }
+
+    </script>
+</body>
+</html>
